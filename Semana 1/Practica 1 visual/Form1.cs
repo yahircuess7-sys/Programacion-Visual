@@ -137,10 +137,7 @@ namespace Practica_1_visual
             else if (resultado >= 40) { 
                 MessageBox.Show("Usted tiene obesidad grado 3");
             }
-            else
-            {
-                MessageBox.Show("Usted tiene obesidad");
-            }
+           
         }
     }
 }
