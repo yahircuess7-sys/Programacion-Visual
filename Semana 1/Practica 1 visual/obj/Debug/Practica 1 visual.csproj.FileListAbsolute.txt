@@ -9,3 +9,14 @@ C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Practica 1 v
 C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Practica 1 visual\obj\Debug\Practica 1 visual.exe
 C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Practica 1 visual\obj\Debug\Practica 1 visual.pdb
 C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Practica 1 visual\obj\Debug\Practica 1 visual.exe.config
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 1\Practica 1 visual\bin\Debug\Practica 1 visual.exe.config
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 1\Practica 1 visual\bin\Debug\Practica 1 visual.exe
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 1\Practica 1 visual\bin\Debug\Practica 1 visual.pdb
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 1\Practica 1 visual\obj\Debug\Practica 1 visual.csproj.AssemblyReference.cache
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 1\Practica 1 visual\obj\Debug\Practica 1 visual.exe.config
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 1\Practica 1 visual\obj\Debug\Practica_1_visual.Form1.resources
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 1\Practica 1 visual\obj\Debug\Practica_1_visual.Properties.Resources.resources
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 1\Practica 1 visual\obj\Debug\Practica 1 visual.csproj.GenerateResource.cache
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 1\Practica 1 visual\obj\Debug\Practica 1 visual.csproj.CoreCompileInputs.cache
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 1\Practica 1 visual\obj\Debug\Practica 1 visual.exe
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 1\Practica 1 visual\obj\Debug\Practica 1 visual.pdb

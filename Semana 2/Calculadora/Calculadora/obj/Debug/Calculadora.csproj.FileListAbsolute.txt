@@ -1,0 +1,11 @@
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 2\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 2\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 2\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 2\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.AssemblyReference.cache
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 2\Calculadora\Calculadora\obj\Debug\Calculadora.Form1.resources
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 2\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 2\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 2\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 2\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 2\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 2\Calculadora\Calculadora\obj\Debug\Calculadora.exe.config

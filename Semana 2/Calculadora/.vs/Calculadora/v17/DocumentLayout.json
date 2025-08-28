@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 2\\Calculadora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{367982F9-2B3D-40DB-B3CF-65E4131A6A53}|Calculadora\\Calculadora.csproj|c:\\users\\yahir urrutia\\documents\\practicas visual\\practica 1 visual\\semana 2\\calculadora\\calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{367982F9-2B3D-40DB-B3CF-65E4131A6A53}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367982F9-2B3D-40DB-B3CF-65E4131A6A53}|Calculadora\\Calculadora.csproj|c:\\users\\yahir urrutia\\documents\\practicas visual\\practica 1 visual\\semana 2\\calculadora\\calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367982F9-2B3D-40DB-B3CF-65E4131A6A53}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367982F9-2B3D-40DB-B3CF-65E4131A6A53}|Calculadora\\Calculadora.csproj|c:\\users\\yahir urrutia\\documents\\practicas visual\\practica 1 visual\\semana 2\\calculadora\\calculadora\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367982F9-2B3D-40DB-B3CF-65E4131A6A53}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 2\\Calculadora\\Calculadora\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Calculadora\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 2\\Calculadora\\Calculadora\\Form1.Designer.cs",
+              "RelativeToolTip": "Calculadora\\Form1.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T14:18:42.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 2\\Calculadora\\Calculadora\\Form1.cs",
+              "RelativeDocumentMoniker": "Calculadora\\Form1.cs",
+              "ToolTip": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 2\\Calculadora\\Calculadora\\Form1.cs",
+              "RelativeToolTip": "Calculadora\\Form1.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAA4wBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T13:45:50.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 2\\Calculadora\\Calculadora\\Form1.cs",
+              "RelativeDocumentMoniker": "Calculadora\\Form1.cs",
+              "ToolTip": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 2\\Calculadora\\Calculadora\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Calculadora\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T13:34:54.364Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
