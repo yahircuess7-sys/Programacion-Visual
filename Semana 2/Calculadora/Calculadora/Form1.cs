@@ -50,7 +50,7 @@ namespace Calculadora
         {
             operador = "+";
             num1 = Convert.ToDouble(txtScreen.Text);
-            txtScreen.Text = "0";
+            txtScreen.Text = " ";
         }
 
         private void btMenS_Click(object sender, EventArgs e)
@@ -70,7 +70,7 @@ namespace Calculadora
 
         private void btCE_Click(object sender, EventArgs e)
         {
-            txtScreen.Text = "0";
+            txtScreen.Text = " ";
             num1 = 0;
             num2 = 0;
             operador = "";
@@ -86,21 +86,21 @@ namespace Calculadora
         {
             operador = "-";
             num1 = Convert.ToDouble(txtScreen.Text);
-            txtScreen.Text = "0";
+            txtScreen.Text = " ";
         }
 
         private void btmulti_Click(object sender, EventArgs e)
         {
             operador = "*";
             num1 = Convert.ToDouble(txtScreen.Text);
-            txtScreen.Text = "0";
+            txtScreen.Text = " ";
         }
 
         private void btdiv_Click(object sender, EventArgs e)
         {
             operador = "/";
             num1 = Convert.ToDouble(txtScreen.Text);
-            txtScreen.Text = "0";
+            txtScreen.Text = " ";
         }
 
         private void btmemr_Click(object sender, EventArgs e)
@@ -113,7 +113,7 @@ namespace Calculadora
         private void btMC_Click(object sender, EventArgs e)
         {
             memoria = 0; //limpiar la memoria, osea memory clear, (no sabia que significaba eso)
-            txtScreen.Text = "0";
+            txtScreen.Text = " ";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -239,7 +239,7 @@ namespace Calculadora
         {
             operador = "^"; //se guarda el operador potencia
             num1 = Convert.ToDouble(txtScreen.Text); //aqui se guarda el primer operando
-            txtScreen.Text = "0"; //se limpia la pantalla para que se lea la potencia.
+            txtScreen.Text = " "; //se limpia la pantalla para que se lea la potencia.
         }
 
         private void btpi_Click(object sender, EventArgs e)
