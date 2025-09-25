@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -52,6 +53,43 @@ namespace ToDoList
         // para el agregar
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            // Validar campos obligatorios
+            if (string.IsNullOrWhiteSpace(txtCodigo.Text))
+            {
+                MessageBox.Show("Debe ingresar un código.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtCodigo.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtNombre.Text))
+            {
+                MessageBox.Show("Debe ingresar un nombre.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtNombre.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtDescripcion.Text))
+            {
+                MessageBox.Show("Debe ingresar una descripción.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtDescripcion.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtLugar.Text))
+            {
+                MessageBox.Show("Debe ingresar un lugar.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtLugar.Focus();
+                return;
+            }
+
+            if (cmbEstado.SelectedItem == null)
+            {
+                MessageBox.Show("Debe seleccionar un estado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                cmbEstado.Focus();
+                return;
+            }
+
+            // Si todos los campos están llenos, proceder con la agregación
             Tarea nueva = new Tarea()
             {
                 Codigo = txtCodigo.Text,
@@ -65,9 +103,19 @@ namespace ToDoList
             listaTareas.Add(nueva);
             ActualizarGrid();
             MessageBox.Show("Tarea agregada correctamente.");
-
+            LimpiarDatos();
         }
+        private void LimpiarDatos()
+        {
+            txtCodigo.Clear();
+            txtNombre.Clear();
+            txtDescripcion.Clear();
+            txtLugar.Clear();
 
+            dtpFecha.Value = DateTime.Now;
+            cmbEstado.SelectedIndex = -1;
+            txtCodigo.Focus();
+        }
         private void btnEditar_Click(object sender, EventArgs e)
         {
             if (dgvTareas.SelectedRows.Count > 0)
@@ -93,19 +141,6 @@ namespace ToDoList
                 listaTareas.RemoveAt(index);
                 ActualizarGrid();
                 MessageBox.Show("Tarea eliminada correctamente.");
-            }
-        }
-
-        private void dgvTareas_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.RowIndex >= 0)
-            {
-                txtCodigo.Text = dgvTareas.Rows[e.RowIndex].Cells[0].Value.ToString();
-                txtNombre.Text = dgvTareas.Rows[e.RowIndex].Cells[1].Value.ToString();
-                txtDescripcion.Text = dgvTareas.Rows[e.RowIndex].Cells[2].Value.ToString();
-                dtpFecha.Value = (DateTime)dgvTareas.Rows[e.RowIndex].Cells[3].Value;
-                txtLugar.Text = dgvTareas.Rows[e.RowIndex].Cells[4].Value.ToString();
-                cmbEstado.SelectedItem = dgvTareas.Rows[e.RowIndex].Cells[5].Value.ToString();
             }
         }
 
@@ -217,6 +252,65 @@ namespace ToDoList
             ActualizarGrid();
             if (this.Controls.Contains(txtBuscar)) txtBuscar.Text = "";
             cmbBuscar.SelectedIndex = 0;
+        }
+
+        private void dgvTareas_SelectionChanged_1(object sender, EventArgs e)
+        {
+            if (dgvTareas.CurrentRow != null && dgvTareas.CurrentRow.Index >= 0)
+            {
+                DataGridViewRow fila = dgvTareas.CurrentRow;
+
+                txtCodigo.Text = fila.Cells[0].Value?.ToString() ?? "";
+                txtNombre.Text = fila.Cells[1].Value?.ToString() ?? "";
+                txtDescripcion.Text = fila.Cells[2].Value?.ToString() ?? "";
+
+                // Manejar la fecha de forma segura
+                if (fila.Cells[3].Value != null && DateTime.TryParse(fila.Cells[3].Value.ToString(), out DateTime fecha))
+                {
+                    dtpFecha.Value = fecha;
+                }
+                 
+                txtLugar.Text = fila.Cells[4].Value?.ToString() ?? "";
+
+                string estado = fila.Cells[5].Value?.ToString() ?? "";
+                if (!string.IsNullOrEmpty(estado) && cmbEstado.Items.Contains(estado))
+                {
+                    cmbEstado.SelectedItem = estado;
+                }
+                else
+                {
+                    cmbEstado.SelectedIndex = -1;
+                }
+            }
+        }
+
+        private void dgvTareas_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0) // para evitar encabezado
+            {
+                DataGridViewRow fila = dgvTareas.Rows[e.RowIndex];
+
+                txtCodigo.Text = fila.Cells[0].Value?.ToString() ?? "";
+                txtNombre.Text = fila.Cells[1].Value?.ToString() ?? "";
+                txtDescripcion.Text = fila.Cells[2].Value?.ToString() ?? "";
+
+                if (fila.Cells[3].Value != null && DateTime.TryParse(fila.Cells[3].Value.ToString(), out DateTime fecha))
+                {
+                    dtpFecha.Value = fecha;
+                }
+
+                txtLugar.Text = fila.Cells[4].Value?.ToString() ?? "";
+
+                string estado = fila.Cells[5].Value?.ToString() ?? "";
+                if (!string.IsNullOrEmpty(estado) && cmbEstado.Items.Contains(estado))
+                {
+                    cmbEstado.SelectedItem = estado;
+                }
+                else
+                {
+                    cmbEstado.SelectedIndex = -1;
+                }
+            }
         }
     }
 }

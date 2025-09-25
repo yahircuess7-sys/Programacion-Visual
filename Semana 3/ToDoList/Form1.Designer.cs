@@ -177,6 +177,7 @@
             // 
             // btnAgregar
             // 
+            this.btnAgregar.BackColor = System.Drawing.Color.Lime;
             this.btnAgregar.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.Location = new System.Drawing.Point(27, 265);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(2);
@@ -184,11 +185,12 @@
             this.btnAgregar.Size = new System.Drawing.Size(121, 79);
             this.btnAgregar.TabIndex = 12;
             this.btnAgregar.Text = "Agregar Tarea";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnEditar
             // 
+            this.btnEditar.BackColor = System.Drawing.Color.Gray;
             this.btnEditar.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.Location = new System.Drawing.Point(152, 264);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(2);
@@ -196,11 +198,12 @@
             this.btnEditar.Size = new System.Drawing.Size(121, 80);
             this.btnEditar.TabIndex = 13;
             this.btnEditar.Text = "Editar Tarea";
-            this.btnEditar.UseVisualStyleBackColor = true;
+            this.btnEditar.UseVisualStyleBackColor = false;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
             // btnEliminar
             // 
+            this.btnEliminar.BackColor = System.Drawing.Color.Red;
             this.btnEliminar.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.Location = new System.Drawing.Point(277, 264);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(2);
@@ -208,13 +211,13 @@
             this.btnEliminar.Size = new System.Drawing.Size(121, 80);
             this.btnEliminar.TabIndex = 14;
             this.btnEliminar.Text = "Eliminar Tarea";
-            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // dgvTareas
             // 
             this.dgvTareas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvTareas.BackgroundColor = System.Drawing.Color.Silver;
+            this.dgvTareas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.dgvTareas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTareas.Location = new System.Drawing.Point(416, 105);
             this.dgvTareas.Margin = new System.Windows.Forms.Padding(2);
@@ -225,6 +228,8 @@
             this.dgvTareas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvTareas.Size = new System.Drawing.Size(529, 287);
             this.dgvTareas.TabIndex = 15;
+            this.dgvTareas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTareas_CellClick);
+            this.dgvTareas.SelectionChanged += new System.EventHandler(this.dgvTareas_SelectionChanged_1);
             // 
             // lblBuscar
             // 
@@ -307,7 +312,7 @@
             "No realizada",
             "En Proceso",
             "Terminada"});
-            this.cbpros.Location = new System.Drawing.Point(607, 37);
+            this.cbpros.Location = new System.Drawing.Point(605, 38);
             this.cbpros.Name = "cbpros";
             this.cbpros.Size = new System.Drawing.Size(254, 21);
             this.cbpros.TabIndex = 24;
@@ -316,7 +321,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.BackColor = System.Drawing.Color.Yellow;
             this.ClientSize = new System.Drawing.Size(968, 426);
             this.Controls.Add(this.cbpros);
             this.Controls.Add(this.btnRefresh);
