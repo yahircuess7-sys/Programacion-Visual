@@ -1,0 +1,14 @@
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\bin\Debug\Registro de Estudiantes.exe.config
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\bin\Debug\Registro de Estudiantes.exe
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\bin\Debug\Registro de Estudiantes.pdb
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\obj\Debug\Registro de Estudiantes.csproj.AssemblyReference.cache
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\obj\Debug\Registro_de_Estudiantes.Form1.resources
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\obj\Debug\Registro_de_Estudiantes.Properties.Resources.resources
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\obj\Debug\Registro de Estudiantes.csproj.GenerateResource.cache
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\obj\Debug\Registro de Estudiantes.csproj.CoreCompileInputs.cache
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\obj\Debug\Registro de Estudiantes.exe
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\obj\Debug\Registro de Estudiantes.pdb
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\obj\Debug\Registro de Estudiantes.exe.config
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\obj\Debug\Registro_de_Estudiantes.Form2.resources
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\obj\Debug\Registro_de_Estudiantes.Form3.resources
+C:\Users\Yahir Urrutia\Documents\Practicas Visual\Practica 1 visual\Semana 5\Registro de Estudiantes\Registro de Estudiantes\obj\Debug\Registro_de_Estudiantes.Form4.resources

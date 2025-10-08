@@ -135,45 +135,47 @@
             // centradaToolStripMenuItem
             // 
             this.centradaToolStripMenuItem.Name = "centradaToolStripMenuItem";
-            this.centradaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.centradaToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.centradaToolStripMenuItem.Text = "Zoom";
             this.centradaToolStripMenuItem.Click += new System.EventHandler(this.centradaToolStripMenuItem_Click_1);
             // 
             // ajustarToolStripMenuItem
             // 
             this.ajustarToolStripMenuItem.Name = "ajustarToolStripMenuItem";
-            this.ajustarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ajustarToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.ajustarToolStripMenuItem.Text = "Centrada";
             this.ajustarToolStripMenuItem.Click += new System.EventHandler(this.ajustarToolStripMenuItem_Click_1);
             // 
             // zoomToolStripMenuItem
             // 
             this.zoomToolStripMenuItem.Name = "zoomToolStripMenuItem";
-            this.zoomToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.zoomToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.zoomToolStripMenuItem.Text = "Ajustada";
             this.zoomToolStripMenuItem.Click += new System.EventHandler(this.zoomToolStripMenuItem_Click_1);
             // 
             // lbImagen
             // 
             this.lbImagen.AutoSize = true;
-            this.lbImagen.Location = new System.Drawing.Point(837, 197);
+            this.lbImagen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbImagen.Location = new System.Drawing.Point(823, 196);
             this.lbImagen.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbImagen.Name = "lbImagen";
-            this.lbImagen.Size = new System.Drawing.Size(75, 13);
+            this.lbImagen.Size = new System.Drawing.Size(105, 16);
             this.lbImagen.TabIndex = 4;
             this.lbImagen.Text = "Imagen Actual";
             // 
             // cbImagenAc
             // 
+            this.cbImagenAc.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbImagenAc.FormattingEnabled = true;
             this.cbImagenAc.Items.AddRange(new object[] {
             "Imagen1",
             "Imagen2",
             "Imagen3"});
-            this.cbImagenAc.Location = new System.Drawing.Point(831, 224);
+            this.cbImagenAc.Location = new System.Drawing.Point(812, 223);
             this.cbImagenAc.Margin = new System.Windows.Forms.Padding(2);
             this.cbImagenAc.Name = "cbImagenAc";
-            this.cbImagenAc.Size = new System.Drawing.Size(92, 21);
+            this.cbImagenAc.Size = new System.Drawing.Size(127, 26);
             this.cbImagenAc.TabIndex = 5;
             this.cbImagenAc.SelectedIndexChanged += new System.EventHandler(this.cbImagenAc_SelectedIndexChanged_1);
             // 

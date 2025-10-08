@@ -1,20 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Yahir Urrutia\\Documents\\Visor de Imagenes\\",
+  "WorkspaceRootPath": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 4\\Visor de Imagenes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A0946A3F-5970-4C21-B27B-F3E9699C5A8D}|Visor de Imagenes\\Visor de Imagenes.csproj|C:\\Users\\Yahir Urrutia\\Documents\\Visor de Imagenes\\visor de imagenes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A0946A3F-5970-4C21-B27B-F3E9699C5A8D}|Visor de Imagenes\\Visor de Imagenes.csproj|C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 4\\Visor de Imagenes\\visor de imagenes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0946A3F-5970-4C21-B27B-F3E9699C5A8D}|Visor de Imagenes\\Visor de Imagenes.csproj|solutionrelative:visor de imagenes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0946A3F-5970-4C21-B27B-F3E9699C5A8D}|Visor de Imagenes\\Visor de Imagenes.csproj|C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 4\\Visor de Imagenes\\visor de imagenes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A0946A3F-5970-4C21-B27B-F3E9699C5A8D}|Visor de Imagenes\\Visor de Imagenes.csproj|solutionrelative:visor de imagenes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Visor de Imagenes||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0946A3F-5970-4C21-B27B-F3E9699C5A8D}|Visor de Imagenes\\Visor de Imagenes.csproj|c:\\users\\yahir urrutia\\documents\\visor de imagenes\\visor de imagenes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0946A3F-5970-4C21-B27B-F3E9699C5A8D}|Visor de Imagenes\\Visor de Imagenes.csproj|solutionrelative:visor de imagenes\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0946A3F-5970-4C21-B27B-F3E9699C5A8D}|Visor de Imagenes\\Visor de Imagenes.csproj|c:\\users\\yahir urrutia\\documents\\visor de imagenes\\visor de imagenes\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{A0946A3F-5970-4C21-B27B-F3E9699C5A8D}|Visor de Imagenes\\Visor de Imagenes.csproj|c:\\users\\yahir urrutia\\documents\\practicas visual\\practica 1 visual\\semana 4\\visor de imagenes\\visor de imagenes\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{A0946A3F-5970-4C21-B27B-F3E9699C5A8D}|Visor de Imagenes\\Visor de Imagenes.csproj|solutionrelative:visor de imagenes\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
@@ -25,28 +25,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Yahir Urrutia\\Documents\\Visor de Imagenes\\Visor de Imagenes\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 4\\Visor de Imagenes\\Visor de Imagenes\\Form1.cs",
               "RelativeDocumentMoniker": "Visor de Imagenes\\Form1.cs",
-              "ToolTip": "C:\\Users\\Yahir Urrutia\\Documents\\Visor de Imagenes\\Visor de Imagenes\\Form1.cs",
+              "ToolTip": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 4\\Visor de Imagenes\\Visor de Imagenes\\Form1.cs",
               "RelativeToolTip": "Visor de Imagenes\\Form1.cs",
-              "ViewState": "AgIAAA4CAAAAAAAAAAD4vx8CAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACsCAAAAAAAAAADwv00CAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T18:58:28.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Yahir Urrutia\\Documents\\Visor de Imagenes\\Visor de Imagenes\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 4\\Visor de Imagenes\\Visor de Imagenes\\Form1.cs",
               "RelativeDocumentMoniker": "Visor de Imagenes\\Form1.cs",
-              "ToolTip": "C:\\Users\\Yahir Urrutia\\Documents\\Visor de Imagenes\\Visor de Imagenes\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 4\\Visor de Imagenes\\Visor de Imagenes\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Visor de Imagenes\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T18:31:38.653Z",
@@ -54,11 +54,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Visor de Imagenes",
-              "DocumentMoniker": "C:\\Users\\Yahir Urrutia\\Documents\\Visor de Imagenes\\Visor de Imagenes\\Visor de Imagenes.csproj",
+              "DocumentMoniker": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 4\\Visor de Imagenes\\Visor de Imagenes\\Visor de Imagenes.csproj",
               "RelativeDocumentMoniker": "Visor de Imagenes\\Visor de Imagenes.csproj",
-              "ToolTip": "C:\\Users\\Yahir Urrutia\\Documents\\Visor de Imagenes\\Visor de Imagenes\\Visor de Imagenes.csproj",
+              "ToolTip": "C:\\Users\\Yahir Urrutia\\Documents\\Practicas Visual\\Practica 1 visual\\Semana 4\\Visor de Imagenes\\Visor de Imagenes\\Visor de Imagenes.csproj",
               "RelativeToolTip": "Visor de Imagenes\\Visor de Imagenes.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-09-08T18:34:18.357Z",

@@ -63,26 +63,6 @@ namespace Visor_de_Imagenes.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        public static System.Drawing.Bitmap _3314478 {
-            get {
-                object obj = ResourceManager.GetObject("_3314478", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap _8344917 {
-            get {
-                object obj = ResourceManager.GetObject("_8344917", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         public static System.Drawing.Bitmap casco {
             get {
                 object obj = ResourceManager.GetObject("casco", resourceCulture);
@@ -126,36 +106,6 @@ namespace Visor_de_Imagenes.Properties {
         public static System.Drawing.Bitmap ganador {
             get {
                 object obj = ResourceManager.GetObject("ganador", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap images {
-            get {
-                object obj = ResourceManager.GetObject("images", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap istockphoto_1136104052_170667a {
-            get {
-                object obj = ResourceManager.GetObject("istockphoto_1136104052_170667a", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        public static System.Drawing.Bitmap picture_gallery_interface_icon_vector {
-            get {
-                object obj = ResourceManager.GetObject("picture_gallery_interface_icon_vector", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
